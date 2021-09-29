@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D9E3F452533198E6CD7954783425B3 /* Pods-KHSTextfield_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BD47827AF622BC8488DF5B1A9DAB3F /* Pods-KHSTextfield_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19CF3F820F19B79FEE14736F453127E2 /* KHSTextfield-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E77415B28A3DF8A82295973B56D43E42 /* KHSTextfield-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		435CA7969E73F7B0F43A8B3D000B11B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5FCB59AB5D9E4D829DADE95CC0B05080 /* Pods-KHSTextfield_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 505DC5F59C5CA202C3EB550E0E40190C /* Pods-KHSTextfield_Example-dummy.m */; };
+		644FC47718E1E6CDB2C9725FFBCDEC3C /* Pods-KHSTextfield_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3146420871C8AE4E094E40108450FBC4 /* Pods-KHSTextfield_Tests-dummy.m */; };
+		67F06A9FB732C1151A96BF04BB6BE073 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		88ED95F405AE06C7FE80EAFFD4310DE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DE70EF090D62C88000BAD72E69DA6C1C /* KHSTextfield-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC0C43B5E904F39ABA35B66BD586058 /* KHSTextfield-dummy.m */; };
+		EBA7E4BE203A303D7D1F2B246474AF8D /* KHSTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F3BDA904FA25EC4FA9C8977B888EE /* KHSTextfield.swift */; };
+		FC18F4B42DCC93BF44A3342A82E3ABC9 /* Pods-KHSTextfield_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1901EAF43C7AC79D1F0DDA48CB721F8 /* Pods-KHSTextfield_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34374C62411789EAD61CB964260D5C55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A71D3223EAA117901D3FBCEC31AEE7CD;
+			remoteInfo = "Pods-KHSTextfield_Example";
+		};
+		54AD30E9305CF4E63F958FCB38031B20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 900F3E6E7DD852CC3BF56A7C489B95B7;
+			remoteInfo = KHSTextfield;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C4F42C55153FE8D2E501AD11AC20772 /* Pods-KHSTextfield_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KHSTextfield_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		11C11E54564359CEDA753646CCC78AD5 /* Pods-KHSTextfield_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KHSTextfield_Tests"; path = Pods_KHSTextfield_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1597322C52A146A70C7C53AA89EF156D /* KHSTextfield.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KHSTextfield.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		18FE25EBC78451A45018C714A9569B30 /* Pods-KHSTextfield_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KHSTextfield_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1953A5D89541CC7CC4BDB24A60981D6A /* Pods-KHSTextfield_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KHSTextfield_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2B11FAB93D6EE2091D8236749C443FD7 /* Pods-KHSTextfield_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KHSTextfield_Tests.modulemap"; sourceTree = "<group>"; };
+		3146420871C8AE4E094E40108450FBC4 /* Pods-KHSTextfield_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KHSTextfield_Tests-dummy.m"; sourceTree = "<group>"; };
+		3823038BCEAB2FE43556A23A47269B12 /* Pods-KHSTextfield_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KHSTextfield_Tests-Info.plist"; sourceTree = "<group>"; };
+		40B75BA5E5BC39E73DFA1768A5675701 /* KHSTextfield */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KHSTextfield; path = KHSTextfield.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB08F07BBAECB348ECE8817EB3B873B /* KHSTextfield-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KHSTextfield-Info.plist"; sourceTree = "<group>"; };
+		505DC5F59C5CA202C3EB550E0E40190C /* Pods-KHSTextfield_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KHSTextfield_Example-dummy.m"; sourceTree = "<group>"; };
+		61EFDFF8B20F5E019C5C85ED37B6DBCE /* KHSTextfield.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KHSTextfield.debug.xcconfig; sourceTree = "<group>"; };
+		650A0A04D7AF7CA440927B9DC1E199E1 /* Pods-KHSTextfield_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KHSTextfield_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6B0CF4A3963B93889FF997A5B3BE0452 /* KHSTextfield-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KHSTextfield-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7774A27545D26D993331C02D24D17808 /* KHSTextfield.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KHSTextfield.modulemap; sourceTree = "<group>"; };
+		855C08BCD099087C6546D127902D5F4C /* Pods-KHSTextfield_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KHSTextfield_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		89F21287FEA6817FC13DF52B01768C68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		931C54D475935F079837845C9B9A60A5 /* Pods-KHSTextfield_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KHSTextfield_Example"; path = Pods_KHSTextfield_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9831E1BDC2538E87DE3A49324D4A15DF /* Pods-KHSTextfield_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KHSTextfield_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D55F5DDFE43A28765BDE83DC4B0FF5F /* Pods-KHSTextfield_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KHSTextfield_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A60F3BDA904FA25EC4FA9C8977B888EE /* KHSTextfield.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KHSTextfield.swift; path = KHSTextfield/Classes/KHSTextfield.swift; sourceTree = "<group>"; };
+		ADC0C43B5E904F39ABA35B66BD586058 /* KHSTextfield-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KHSTextfield-dummy.m"; sourceTree = "<group>"; };
+		C5ECA31B8E472BAC5D9A032455EF85A8 /* Pods-KHSTextfield_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KHSTextfield_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C7EC8D1034A8EBED5E8E7FD29AFBA709 /* Pods-KHSTextfield_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KHSTextfield_Example-Info.plist"; sourceTree = "<group>"; };
+		C9E7E480917C7B2CA67C4A63634BE3BB /* KHSTextfield.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KHSTextfield.release.xcconfig; sourceTree = "<group>"; };
+		CF644B4E8FDE0E431645BC1AC4D044FC /* Pods-KHSTextfield_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KHSTextfield_Example.modulemap"; sourceTree = "<group>"; };
+		D7BD47827AF622BC8488DF5B1A9DAB3F /* Pods-KHSTextfield_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KHSTextfield_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E1901EAF43C7AC79D1F0DDA48CB721F8 /* Pods-KHSTextfield_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KHSTextfield_Example-umbrella.h"; sourceTree = "<group>"; };
+		E4B8E1DE8DC34A1DCA6B21A111F03A17 /* Pods-KHSTextfield_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KHSTextfield_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E69D1E6B26D794469CBA6053FCA9A823 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E77415B28A3DF8A82295973B56D43E42 /* KHSTextfield-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KHSTextfield-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CB3780B8F113F937A316419765940F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88ED95F405AE06C7FE80EAFFD4310DE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDC3442E855854B31E590917F88DAD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435CA7969E73F7B0F43A8B3D000B11B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462ABC0FAA428EA04649212252AD85A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F06A9FB732C1151A96BF04BB6BE073 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AC35BDD06F55E904DCA9C4C66320032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40B75BA5E5BC39E73DFA1768A5675701 /* KHSTextfield */,
+				931C54D475935F079837845C9B9A60A5 /* Pods-KHSTextfield_Example */,
+				11C11E54564359CEDA753646CCC78AD5 /* Pods-KHSTextfield_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DC772862178B43BCD903C2456BBD90C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F702737738FD556526F08099CE79B4C9 /* KHSTextfield */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		67163271FA587BD4B1AAF04C59DD9273 /* Pods-KHSTextfield_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CF644B4E8FDE0E431645BC1AC4D044FC /* Pods-KHSTextfield_Example.modulemap */,
+				9D55F5DDFE43A28765BDE83DC4B0FF5F /* Pods-KHSTextfield_Example-acknowledgements.markdown */,
+				9831E1BDC2538E87DE3A49324D4A15DF /* Pods-KHSTextfield_Example-acknowledgements.plist */,
+				505DC5F59C5CA202C3EB550E0E40190C /* Pods-KHSTextfield_Example-dummy.m */,
+				E4B8E1DE8DC34A1DCA6B21A111F03A17 /* Pods-KHSTextfield_Example-frameworks.sh */,
+				C7EC8D1034A8EBED5E8E7FD29AFBA709 /* Pods-KHSTextfield_Example-Info.plist */,
+				E1901EAF43C7AC79D1F0DDA48CB721F8 /* Pods-KHSTextfield_Example-umbrella.h */,
+				18FE25EBC78451A45018C714A9569B30 /* Pods-KHSTextfield_Example.debug.xcconfig */,
+				1953A5D89541CC7CC4BDB24A60981D6A /* Pods-KHSTextfield_Example.release.xcconfig */,
+			);
+			name = "Pods-KHSTextfield_Example";
+			path = "Target Support Files/Pods-KHSTextfield_Example";
+			sourceTree = "<group>";
+		};
+		74951AEEA4E80C88DC4284160C15567A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67163271FA587BD4B1AAF04C59DD9273 /* Pods-KHSTextfield_Example */,
+				EB12FC2E6D9473AAE57C7944094B0E26 /* Pods-KHSTextfield_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8887318B69DDDDEA4422A01EBFB5B7C4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1597322C52A146A70C7C53AA89EF156D /* KHSTextfield.podspec */,
+				89F21287FEA6817FC13DF52B01768C68 /* LICENSE */,
+				E69D1E6B26D794469CBA6053FCA9A823 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BF8239E70C311F8C6D9DCA3A13D507D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7774A27545D26D993331C02D24D17808 /* KHSTextfield.modulemap */,
+				ADC0C43B5E904F39ABA35B66BD586058 /* KHSTextfield-dummy.m */,
+				4CB08F07BBAECB348ECE8817EB3B873B /* KHSTextfield-Info.plist */,
+				6B0CF4A3963B93889FF997A5B3BE0452 /* KHSTextfield-prefix.pch */,
+				E77415B28A3DF8A82295973B56D43E42 /* KHSTextfield-umbrella.h */,
+				61EFDFF8B20F5E019C5C85ED37B6DBCE /* KHSTextfield.debug.xcconfig */,
+				C9E7E480917C7B2CA67C4A63634BE3BB /* KHSTextfield.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KHSTextfield";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2DC772862178B43BCD903C2456BBD90C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0AC35BDD06F55E904DCA9C4C66320032 /* Products */,
+				74951AEEA4E80C88DC4284160C15567A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB12FC2E6D9473AAE57C7944094B0E26 /* Pods-KHSTextfield_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2B11FAB93D6EE2091D8236749C443FD7 /* Pods-KHSTextfield_Tests.modulemap */,
+				650A0A04D7AF7CA440927B9DC1E199E1 /* Pods-KHSTextfield_Tests-acknowledgements.markdown */,
+				855C08BCD099087C6546D127902D5F4C /* Pods-KHSTextfield_Tests-acknowledgements.plist */,
+				3146420871C8AE4E094E40108450FBC4 /* Pods-KHSTextfield_Tests-dummy.m */,
+				3823038BCEAB2FE43556A23A47269B12 /* Pods-KHSTextfield_Tests-Info.plist */,
+				D7BD47827AF622BC8488DF5B1A9DAB3F /* Pods-KHSTextfield_Tests-umbrella.h */,
+				0C4F42C55153FE8D2E501AD11AC20772 /* Pods-KHSTextfield_Tests.debug.xcconfig */,
+				C5ECA31B8E472BAC5D9A032455EF85A8 /* Pods-KHSTextfield_Tests.release.xcconfig */,
+			);
+			name = "Pods-KHSTextfield_Tests";
+			path = "Target Support Files/Pods-KHSTextfield_Tests";
+			sourceTree = "<group>";
+		};
+		F702737738FD556526F08099CE79B4C9 /* KHSTextfield */ = {
+			isa = PBXGroup;
+			children = (
+				A60F3BDA904FA25EC4FA9C8977B888EE /* KHSTextfield.swift */,
+				8887318B69DDDDEA4422A01EBFB5B7C4 /* Pod */,
+				BF8239E70C311F8C6D9DCA3A13D507D5 /* Support Files */,
+			);
+			name = KHSTextfield;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3FA1AD80F472365F2BA5FFF00F3902C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CF3F820F19B79FEE14736F453127E2 /* KHSTextfield-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD9E98FF4452B9A439081090593C6A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D9E3F452533198E6CD7954783425B3 /* Pods-KHSTextfield_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF5A1540908851B69A412865DEB8BF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC18F4B42DCC93BF44A3342A82E3ABC9 /* Pods-KHSTextfield_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		900F3E6E7DD852CC3BF56A7C489B95B7 /* KHSTextfield */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128D5A1BD0338A7E28468DD898421C5C /* Build configuration list for PBXNativeTarget "KHSTextfield" */;
+			buildPhases = (
+				3FA1AD80F472365F2BA5FFF00F3902C3 /* Headers */,
+				B5FEF36B173E9739A50779CF3A48933C /* Sources */,
+				3DDC3442E855854B31E590917F88DAD5 /* Frameworks */,
+				C301C782389D2F78B114127480337B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KHSTextfield;
+			productName = KHSTextfield;
+			productReference = 40B75BA5E5BC39E73DFA1768A5675701 /* KHSTextfield */;
+			productType = "com.apple.product-type.framework";
+		};
+		A71D3223EAA117901D3FBCEC31AEE7CD /* Pods-KHSTextfield_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79473F013AB00BDB9B33644E4C7C2D11 /* Build configuration list for PBXNativeTarget "Pods-KHSTextfield_Example" */;
+			buildPhases = (
+				DBF5A1540908851B69A412865DEB8BF8 /* Headers */,
+				03B6319E825E0F599681A830EB6F6978 /* Sources */,
+				462ABC0FAA428EA04649212252AD85A7 /* Frameworks */,
+				38466AC3067FE5083BB0A15EA864DB8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD4CC62CB7FCDB9E2CEA59D226CA0C59 /* PBXTargetDependency */,
+			);
+			name = "Pods-KHSTextfield_Example";
+			productName = Pods_KHSTextfield_Example;
+			productReference = 931C54D475935F079837845C9B9A60A5 /* Pods-KHSTextfield_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8850A9B9434056CFEF36E4509D08600 /* Pods-KHSTextfield_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2305AC0103AA99DFEE56C22BD85155 /* Build configuration list for PBXNativeTarget "Pods-KHSTextfield_Tests" */;
+			buildPhases = (
+				BFD9E98FF4452B9A439081090593C6A4 /* Headers */,
+				BCB11194C35301CA114544D9EA058017 /* Sources */,
+				0CB3780B8F113F937A316419765940F1 /* Frameworks */,
+				A3B1643921502AE5BADA5C630CFBECC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				536AFBFD5F89E614168F342AF29713F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-KHSTextfield_Tests";
+			productName = Pods_KHSTextfield_Tests;
+			productReference = 11C11E54564359CEDA753646CCC78AD5 /* Pods-KHSTextfield_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0AC35BDD06F55E904DCA9C4C66320032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				900F3E6E7DD852CC3BF56A7C489B95B7 /* KHSTextfield */,
+				A71D3223EAA117901D3FBCEC31AEE7CD /* Pods-KHSTextfield_Example */,
+				E8850A9B9434056CFEF36E4509D08600 /* Pods-KHSTextfield_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38466AC3067FE5083BB0A15EA864DB8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B1643921502AE5BADA5C630CFBECC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C301C782389D2F78B114127480337B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03B6319E825E0F599681A830EB6F6978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FCB59AB5D9E4D829DADE95CC0B05080 /* Pods-KHSTextfield_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5FEF36B173E9739A50779CF3A48933C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE70EF090D62C88000BAD72E69DA6C1C /* KHSTextfield-dummy.m in Sources */,
+				EBA7E4BE203A303D7D1F2B246474AF8D /* KHSTextfield.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB11194C35301CA114544D9EA058017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644FC47718E1E6CDB2C9725FFBCDEC3C /* Pods-KHSTextfield_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		536AFBFD5F89E614168F342AF29713F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KHSTextfield_Example";
+			target = A71D3223EAA117901D3FBCEC31AEE7CD /* Pods-KHSTextfield_Example */;
+			targetProxy = 34374C62411789EAD61CB964260D5C55 /* PBXContainerItemProxy */;
+		};
+		FD4CC62CB7FCDB9E2CEA59D226CA0C59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KHSTextfield;
+			target = 900F3E6E7DD852CC3BF56A7C489B95B7 /* KHSTextfield */;
+			targetProxy = 54AD30E9305CF4E63F958FCB38031B20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5DF571C9A07671F67BE4D2A80C475F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C4F42C55153FE8D2E501AD11AC20772 /* Pods-KHSTextfield_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KHSTextfield_Tests/Pods-KHSTextfield_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KHSTextfield_Tests/Pods-KHSTextfield_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7111323AC8FFD66112CD05ACC8AD4FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E7E480917C7B2CA67C4A63634BE3BB /* KHSTextfield.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KHSTextfield/KHSTextfield-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KHSTextfield/KHSTextfield-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KHSTextfield/KHSTextfield.modulemap";
+				PRODUCT_MODULE_NAME = KHSTextfield;
+				PRODUCT_NAME = KHSTextfield;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F54BE41F091D1880C1CF14EB9DB6BBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18FE25EBC78451A45018C714A9569B30 /* Pods-KHSTextfield_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KHSTextfield_Example/Pods-KHSTextfield_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KHSTextfield_Example/Pods-KHSTextfield_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC3EA2745F4C7B8C7181C16F61C73E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1953A5D89541CC7CC4BDB24A60981D6A /* Pods-KHSTextfield_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KHSTextfield_Example/Pods-KHSTextfield_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KHSTextfield_Example/Pods-KHSTextfield_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CE1E18190C545ABFE5D33B0180BC508C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61EFDFF8B20F5E019C5C85ED37B6DBCE /* KHSTextfield.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KHSTextfield/KHSTextfield-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KHSTextfield/KHSTextfield-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KHSTextfield/KHSTextfield.modulemap";
+				PRODUCT_MODULE_NAME = KHSTextfield;
+				PRODUCT_NAME = KHSTextfield;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DEC15231E7C9EB655CAF716FB52352F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5ECA31B8E472BAC5D9A032455EF85A8 /* Pods-KHSTextfield_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KHSTextfield_Tests/Pods-KHSTextfield_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KHSTextfield_Tests/Pods-KHSTextfield_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		128D5A1BD0338A7E28468DD898421C5C /* Build configuration list for PBXNativeTarget "KHSTextfield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1E18190C545ABFE5D33B0180BC508C /* Debug */,
+				7111323AC8FFD66112CD05ACC8AD4FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79473F013AB00BDB9B33644E4C7C2D11 /* Build configuration list for PBXNativeTarget "Pods-KHSTextfield_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F54BE41F091D1880C1CF14EB9DB6BBA /* Debug */,
+				BC3EA2745F4C7B8C7181C16F61C73E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2305AC0103AA99DFEE56C22BD85155 /* Build configuration list for PBXNativeTarget "Pods-KHSTextfield_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF571C9A07671F67BE4D2A80C475F8B /* Debug */,
+				DEC15231E7C9EB655CAF716FB52352F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

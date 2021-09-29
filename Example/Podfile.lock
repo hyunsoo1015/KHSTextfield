@@ -1,0 +1,16 @@
+PODS:
+  - KHSTextfield (0.1.0)
+
+DEPENDENCIES:
+  - KHSTextfield (from `../`)
+
+EXTERNAL SOURCES:
+  KHSTextfield:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KHSTextfield: 046d2d8a7c5315d3aa5ba95b8625406cf06fbd82
+
+PODFILE CHECKSUM: 54e8664cbbdf4bc40c5c984da823b392994f2ea7
+
+COCOAPODS: 1.11.2

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import KHSTextfield
 
 class ViewController: UIViewController {
 
